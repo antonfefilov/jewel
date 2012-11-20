@@ -20,11 +20,19 @@ body {
 #page {
 }
 
+html  {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h1, h2  {
+  font-family: 'Lobster', cursive;  
+}
+
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-
+ 
 #skip-link {
   margin: 0;
 }
@@ -46,12 +54,14 @@ body {
 }
 
 #logo { /* Wrapping link for logo */
-  float: left; /* LTR */
-  margin: 0;
+  display: block;
+  margin: 0 auto;
   padding: 0;
 }
 #logo img {
+  display: block;
   vertical-align: bottom;
+  margin: 0 auto;
 }
 
 #name-and-slogan { /* Wrapper for website name and slogan */

@@ -68,6 +68,7 @@ a.button { /* Buttons used by contrib modules like Media */
  */
 
 #block-search-form { /* Wrapper for the search form */
+  float: right;
 }
 
 /*
