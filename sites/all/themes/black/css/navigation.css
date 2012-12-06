@@ -39,7 +39,27 @@ li a.active {
  */
 
 #navigation {
+  position: relative;
+  height: 2em;
+  width: 450px;
+  margin: 0 0 0 290px;
+}
+
+#navigation a {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  text-decoration:none;
+  color: white;  
+}
+
+#navigation a:hover {
+  text-decoration: underline;  
+}
+
+#navigation a.active {
+  color: black;
+  border-radius: 10px;
+  padding: 0px 10px;
+  background: white;  
 }
 
 #navigation .block {

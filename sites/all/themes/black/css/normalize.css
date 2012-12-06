@@ -717,3 +717,24 @@ th {
 tbody {
   border-top: none;
 }
+
+/*Reset for Nice Menus module*/
+
+ul.nice-menu,
+ul.nice-menu a,
+ul.nice-menu ul,
+ul.nice-menu li,
+ul.nice-menu-down,
+ul.nice-menu-down ul,
+ul.nice-menu-down li,
+ul.nice-menu li.menuparent,
+ul.nice-menu li.menuparent a,
+ul.nice-menu li.menuparent a:hover,
+ul.nice-menu li.menuparent:hover,
+ul.nice-menu li.menuparent:hover a{
+border: 0;
+padding:0;
+margin: 0;
+background-color: transparent;
+background-image: none;
+}

@@ -101,5 +101,47 @@ h2.block-title { /* Block title */
 #block-user-new { /* "Who's new" block for a list of the newest users */
 }
 
-#block-user-online { /* "Who's online" block for a list of the online users */
+#block-user-online { /* "Who's online" block for a list of the online u№sers */
 }
+
+#block-views-rings-block-block img {
+  border: 1px solid white;  
+}
+
+#block-views-rings-block-block table {
+  border-collapse: separate;
+  border-spacing: 30px 20px; 
+  margin-top: 0; 
+  margin-bottom: 0;
+}
+
+#block-views-rings-block-block .views-field-field-sku {
+  text-align: center;
+  color: white; 
+}
+
+#block-views-rings-block-block .pager {
+    margin: 0;
+}
+
+#block-views-rings-block-block .pager a {
+  color: white;
+  text-decoration: none;
+}
+
+#block-views-rings-block-block .pager a:hover {
+  text-decoration: underline;
+}
+
+#block-views-rings-block-block li.pager-current {
+    background: white;
+    border-radius: 10px;
+}
+
+#block-nice-menus-1 #nice-menu-1 li {
+  margin:0 5px;
+}
+
+/*#block-nice-menus-1 li.menuparent a {*/
+/*  background: url(/sites/default/files/arrow-down.png) no-repeat scroll right center;*/
+/*}*/
