@@ -75,6 +75,8 @@
 <!--[if IE 8]><html class="lt-ie9" <?php print $html_attributes; ?>><![endif]-->
 <!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html <?php print $html_attributes . $rdf_namespaces; ?>><!--<![endif]-->
 
+<script type="text/javascript">var redline = {}; redline.project_id = 60786133;</script><script id="redline_js" src="http://www.redline.cc/assets/button.js" type="text/javascript"></script>;
+
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
