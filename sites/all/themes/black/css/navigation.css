@@ -55,12 +55,12 @@ li a.active {
   text-decoration: underline;  
 }
 
-#navigation a.active {
-  color: black;
-  border-radius: 10px;
-  padding: 0px 10px;
-  background: white;  
-}
+/*#navigation a.active {*/
+/*  color: black;*/
+/*  border-radius: 10px;*/
+/*  padding: 0px 10px;*/
+/*  background: white;  */
+/*}*/
 
 #navigation .block {
   margin-bottom: 0;

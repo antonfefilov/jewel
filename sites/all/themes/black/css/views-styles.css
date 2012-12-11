@@ -55,3 +55,34 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+
+.view-catalog-view table {
+  margin: 0 auto;
+}
+
+.view-catalog-view ul.pager {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pager {
+    margin: 0;
+}
+
+.pager a {
+  color: white;
+  text-decoration: none;
+}
+
+.pager a:hover {
+  text-decoration: underline;
+}
+
+li.pager-current {
+    background: white;
+    border-radius: 10px;
+}
+
+.ajax-progress {
+  display: none;
+}
