@@ -47,6 +47,8 @@
  */
 
 .node-page { /* Page content node */
+  background: white;
+  padding: 5px 30px;
 }
 
 .node-article { /* Article content node */
