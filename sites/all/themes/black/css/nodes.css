@@ -51,6 +51,33 @@
   padding: 5px 30px;
 }
 
+.node-14 { 
+  background: #1D1D1B;
+}
+
+.node-15 { 
+  background: #1D1D1B;
+  padding: 0;
+}
+
+.node-15 p { 
+  margin-top: 0;
+}
+
+.node-15 img { 
+  border: 1px solid white;
+}
+
+.node-15 a { 
+  color: white;
+  text-decoration: none;
+}
+
+.node-15 a:hover { 
+  text-decoration: underline;
+}
+
+
 .node-article { /* Article content node */
 }
 
