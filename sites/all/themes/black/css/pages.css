@@ -93,8 +93,16 @@ h1, h2  {
   border: 1px solid white;
 }
 
-#promo-banner {
+#promo-banner-text {
+  position: absolute;
+  width: 350px;
+  top: 40px;
+  left: 130px;
+  color: white;
+}
 
+#promo-banner {
+  position: relative;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
