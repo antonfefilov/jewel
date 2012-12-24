@@ -105,6 +105,19 @@ h1, h2  {
   position: relative;
 }
 
+#map-image {
+  position: relative;
+}
+
+#map-image-text {
+  position: absolute;
+  top: 370px;
+  left: 265px;
+  background: white;
+  padding: 20px 10px 0;
+  border-radius: 10px;
+}
+
 .region-header { /* Wrapper for any blocks placed in the header region */
   clear: both; /* Clear the logo */
 }
